@@ -35,7 +35,8 @@
       <div class="nav-links">
         <a href="#how-it-works">How it works</a>
         <a href="#features">Features</a>
-        <a href="https://github.com/agentallstar/atlaster" class="nav-gh">GitHub</a>
+        <a href="#get-started">Download</a>
+        <a href="https://github.com/Allisterlim/atlaster-releases" class="nav-gh">GitHub</a>
       </div>
     </div>
   </nav>
@@ -50,7 +51,7 @@
         Every session, every experiment, every thread &mdash; captured and visualized automatically.
       </p>
       <div class="hero-actions">
-        <a href="https://github.com/agentallstar/atlaster" class="btn btn-primary">Get started</a>
+        <a href="#get-started" class="btn btn-primary">Download for free</a>
         <a href="#how-it-works" class="btn btn-ghost">See how it works &darr;</a>
       </div>
     </div>
@@ -182,37 +183,56 @@
 
   <hr class="rainbow-line">
 
-  <!-- CTA -->
-  <section class="cta">
+  <!-- Get Started -->
+  <section id="get-started" class="get-started">
     <div class="container">
-      <div class="cta-spiral">
-        <svg width="72" height="72" viewBox="0 0 200 200" fill="none">
-          <defs>
-            <filter id="ctaGlow" x="-30%" y="-30%" width="160%" height="160%">
-              <feGaussianBlur stdDeviation="4.5" result="blur"/>
-              <feComponentTransfer in="blur" result="b2"><feFuncA type="linear" slope="0.65"/></feComponentTransfer>
-              <feMerge><feMergeNode in="b2"/><feMergeNode in="SourceGraphic"/></feMerge>
-            </filter>
-          </defs>
-          <g filter="url(#ctaGlow)">
-            <polygon points="100,10 116,76 100,62 84,76" fill="#7ec8e3"/>
-            <polygon points="190,100 124,84 138,100 124,116" fill="#e8a0c8"/>
-            <polygon points="100,190 84,124 100,138 116,124" fill="#f0c878"/>
-            <polygon points="10,100 76,116 62,100 76,84" fill="#80d8c0"/>
-            <polygon points="160,40 114,86 120,80 126,86" fill="#b0a0d8" opacity="0.7"/>
-            <polygon points="160,160 114,114 126,114 120,120" fill="#8ecfa0" opacity="0.7"/>
-            <polygon points="40,160 86,114 80,120 74,114" fill="#b0a0d8" opacity="0.7"/>
-            <polygon points="40,40 86,86 74,86 80,80" fill="#8ecfa0" opacity="0.7"/>
-            <circle cx="100" cy="100" r="14" fill="white"/>
-            <circle cx="100" cy="100" r="14" stroke="#7ec8e3" stroke-width="1.5" opacity="0.3"/>
-          </g>
-        </svg>
+      <div class="section-header">
+        <span class="section-num">04</span>
+        <h2>Get started</h2>
       </div>
-      <h2>Know your work.</h2>
-      <p class="cta-launching">App launching soon.</p>
-      <p>Try Atlaster for free.</p>
-      <a href="mailto:agentallister@gmail.com" class="btn btn-primary btn-lg">Get in touch</a>
-      <p class="cta-email"><a href="mailto:agentallister@gmail.com">agentallister@gmail.com</a></p>
+      <div class="download-grid">
+        <div class="download-card rainbow-border">
+          <div class="download-icon">&#x1f5a5;</div>
+          <h3>Windows</h3>
+          <p>Windows 10 or later</p>
+          <a href="https://github.com/Allisterlim/atlaster-releases/releases/latest" class="btn btn-primary">Download .exe</a>
+          <span class="download-note">NSIS installer &middot; ~80 MB</span>
+        </div>
+        <div class="download-card rainbow-border">
+          <div class="download-icon">&#x1f34e;</div>
+          <h3>macOS</h3>
+          <p>macOS 12 or later</p>
+          <a href="https://github.com/Allisterlim/atlaster-releases/releases/latest" class="btn btn-primary">Download .dmg</a>
+          <span class="download-note">Universal binary &middot; Intel + Apple Silicon</span>
+        </div>
+      </div>
+      <div class="quickstart">
+        <h3>Quick setup</h3>
+        <div class="quickstart-steps">
+          <div class="qs-step">
+            <span class="qs-num">1</span>
+            <div>
+              <strong>Download &amp; install</strong>
+              <p>Grab the installer for your platform above. No account needed.</p>
+            </div>
+          </div>
+          <div class="qs-step">
+            <span class="qs-num">2</span>
+            <div>
+              <strong>Use Claude Code as normal</strong>
+              <p>Atlaster reads your existing sessions from <code>~/.claude/</code>. No extra setup.</p>
+            </div>
+          </div>
+          <div class="qs-step">
+            <span class="qs-num">3</span>
+            <div>
+              <strong>Open Atlaster</strong>
+              <p>Your work appears on the canvas automatically. Projects, tasks, connections &mdash; all mapped out.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="release-link">All releases on <a href="https://github.com/Allisterlim/atlaster-releases/releases">GitHub</a> &middot; Free &amp; local-first &middot; <a href="mailto:agentallister@gmail.com">agentallister@gmail.com</a></p>
     </div>
   </section>
 
