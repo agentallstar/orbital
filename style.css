@@ -554,9 +554,13 @@ body {
 
 .download-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 24px;
   margin-bottom: 64px;
+}
+
+.download-card-coming-soon {
+  opacity: 0.55;
 }
 
 .download-card {
@@ -742,7 +746,7 @@ body {
   }
 
   .download-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
   }
 
   .quickstart {
